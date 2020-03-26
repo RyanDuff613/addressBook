@@ -10,7 +10,7 @@ $(document).ready(function() {
     var email = $('#email').val();
 
     console.log(name, address1, address2, phone, email);
-    $('#contactList').prepend(name,address1);
+    $('#contactList').after(name+'<br>'+address1+'<br>'+address2+'<br>'+phone+'<br>'+email+'<br>'+'<p><hr></p>');
   });
 
 
