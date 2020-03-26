@@ -9,7 +9,8 @@ $(document).ready(function() {
     var phone = $('#phone').val();
     var email = $('#email').val();
 
-    $('#contactList').prepend();
+    console.log(name, address1, address2, phone, email);
+    $('#contactList').prepend(name,address1);
   });
 
 
